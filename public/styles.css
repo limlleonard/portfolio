@@ -1,15 +1,15 @@
 * {
+	/* border: 1px solid red; */
 	margin: 0;
 	padding: 0;
 	font-family: Arial, sans-serif;
 	box-sizing: border-box;
-	/* border: 1px solid red; */
 }
 
 body {
 	font-size: 12pt;
 	background: lightblue;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 .page {
@@ -25,6 +25,8 @@ body {
 	position: relative;
 	background: indigo;
 	padding: 35px 20px 35px 25px;
+	display: flex;
+	flex-direction: column;
 }
 
 .ctn-foto-name {
@@ -34,6 +36,7 @@ body {
 	align-items: center;
 	padding-bottom: 10px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	margin-bottom: 15px;
 }
 
 .ctn-foto-name .ctn-foto1 {
@@ -67,8 +70,14 @@ body {
 	font-weight: 300;
 }
 
-.ctn-ul {
-	padding-top: 20px;
+.left1 {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.ctn-ul+.ctn-ul {
+	margin-top: auto;
 }
 
 .ctn-ul .title {
@@ -85,7 +94,7 @@ body {
 .ctn-ul ul li {
 	position: relative;
 	list-style: none;
-	margin: 8px 0;
+	margin-bottom: 8px;
 }
 
 .contact ul li {
@@ -109,17 +118,14 @@ body {
 	color: white;
 	font-size: 11pt;
 	font-weight: 300;
-	line-height: 1.2;
+	line-height: 1.4;
 	text-decoration: none;
-}
-
-.bildung ul li {
-	margin-bottom: 10px;
 }
 
 .bildung h5 {
 	color: aqua;
 	font-weight: 500;
+	font-size: 1em;
 }
 
 .bildung h4:nth-child(2) {
@@ -133,17 +139,23 @@ body {
 	line-height: 1.4;
 }
 
+.language ul li {
+	margin-bottom: 6px;
+}
+
 .page .right {
 	position: relative;
 	background: white;
 	padding: 35px;
+	display: flex;
+	flex-direction: column;
 }
 
 .skills {
-	margin-bottom: 2em
+	margin-bottom: 18px;
 }
 
-.right1 .title2 {
+.right .title2 {
 	font-weight: 600;
 	margin-bottom: 10px;
 	font-size: 14pt;
@@ -177,6 +189,15 @@ body {
 	background: aqua;
 }
 
+.erfahrungen {
+	height: 100%;
+}
+
+.erfahrung+.erfahrung {
+	margin-top: auto;
+}
+
+.erfahrungen,
 .erfahrung {
 	display: flex;
 	flex-direction: column;
@@ -199,18 +220,23 @@ body {
 	background-color: indigo;
 	color: white;
 	margin-left: auto;
-	/* margin-bottom: -1em; */
+	margin-bottom: 0.2em;
 }
 
 .erfahrung .project {
-	margin-bottom: 1em;
+	margin-bottom: 0.8em;
 }
 
-.erfahrung .project ul {
+.erfahrung .project:last-of-type {
+	margin-bottom: 0;
+}
+
+
+.erfahrung ul {
 	padding-left: 1em;
 	line-height: 1.4;
 }
 
-.erfahrung .project ul li::marker {
+.erfahrung ul li::marker {
 	color: indigo;
 }
