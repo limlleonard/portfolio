@@ -13,7 +13,9 @@ function CV() {
     return (
         <section id="cv" className="cv-section">
             <h2 className="projects-section-header">Curriculum Vitae</h2>
-            <iframe className="page" src={iframeSrc}></iframe>
+            <div className="page-wrapper">
+                <iframe className="page" src={iframeSrc}></iframe>
+            </div>
         </section>
     );
 }
