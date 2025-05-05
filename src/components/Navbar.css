@@ -9,17 +9,16 @@
   left: 0;
   background: #647891;
   align-items: center;
-  gap: 1rem;
-  padding: 0 1rem;
+  gap: 0.8em;
+  padding: 0 1em;
   z-index: 3;
 }
 
-.navbar a,
-.navbar select {
-  display: inline-block;
+.navbar a {
+  display: inline;
   padding: 0 10px;
+  height: 50px;
   line-height: 50px;
-  text-decoration: none;
   color: white;
   font-weight: bold;
 }
@@ -27,6 +26,7 @@
 .navbar select {
   height: 35px;
   background-color: darkslateblue;
+  color: white;
   border-radius: 0.5em;
 }
 

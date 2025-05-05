@@ -16,7 +16,7 @@ const ProjectTile: React.FC<ProjectLinkProps> = ({ href, imageSrc, title }) => {
                     alt={`project image: ${title}`}
                 />
             </div>
-            <p className="project-title">{title}</p>
+            <h3 className="project-title">{title}</h3>
         </a>
     );
 };
