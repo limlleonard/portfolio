@@ -14,7 +14,7 @@ function Welcome() {
                 <h2 id="ywm">You want me</h2>
             </div>
             <h1>{t("hello")}</h1>
-            <p id="ds">{t("developer")}</p>
+            <h2 id="ds">{t("developer")}</h2>
         </section>
     );
 }

@@ -8,7 +8,7 @@ function Projects() {
     return (
         <section id="projects" className="projects-section">
             <h2 className="projects-section-header">{t("h2Project")}</h2>
-            <div className="projects-grid">
+            <div className="projects-flex">
                 {projectData.map((project, index) => (
                     <ProjectTile
                         key={index}

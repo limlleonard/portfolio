@@ -10,7 +10,8 @@
   background: #647891;
   align-items: center;
   gap: 0.8em;
-  padding: 0 1em;
+  padding: 0;
+  padding-right: 1em;
   z-index: 3;
 }
 
@@ -33,4 +34,17 @@
 .navbar a:hover {
   background-color: #bbb;
   color: black;
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    gap: 0;
+    padding: 0;
+  }
+
+  .navbar a {
+    padding: 0 5px;
+    font-size: 0.9em;
+    font-weight: normal;
+  }
 }
