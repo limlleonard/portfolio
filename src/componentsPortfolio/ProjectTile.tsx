@@ -8,7 +8,7 @@ type ProjectTileProps = {
 
 const ProjectTile: React.FC<ProjectTileProps> = ({ href, imageSrc, title }) => {
     return (
-        <a href={href} target="_blank" className={"project"}>
+        <a href={href} target="_blank" className={"project-tile"}>
             <div className="project-image-wrapper">
                 <img
                     className="project-image"

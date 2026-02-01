@@ -1,0 +1,50 @@
+.erfahrungen {
+    height: 100%;
+}
+
+.erfahrung+.erfahrung {
+    margin-top: auto;
+}
+
+.erfahrungen,
+.erfahrung {
+    display: flex;
+    flex-direction: column;
+}
+
+.erfahrung h3 {
+    font-size: 12pt;
+    font-weight: 400;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.erfahrung h3 .stelle {
+    color: navy;
+    font-weight: 600;
+    margin-right: 3pt;
+}
+
+.erfahrung .zeit {
+    background-color: indigo;
+    color: white;
+    margin-left: auto;
+    margin-bottom: 0.2em;
+}
+
+.erfahrung .project {
+    margin-bottom: 0.8em;
+}
+
+.erfahrung .project:last-of-type {
+    margin-bottom: 0;
+}
+
+.erfahrung ul {
+    padding-left: 1em;
+    line-height: 1.4;
+}
+
+.erfahrung ul li::marker {
+    color: indigo;
+}

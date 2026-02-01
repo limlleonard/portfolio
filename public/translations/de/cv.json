@@ -1,0 +1,37 @@
+{
+    "contact": "Kontakt",
+    "education": {
+        "title": "Bildungsweg",
+        "doctor": "Doktorand in Physik",
+        "doctor-uni": "Universität des Saarlandes, Deutschland"
+    },
+    "language": {
+        "german": "Deutsch",
+        "english": "Englisch",
+        "chinese": "Chinesisch",
+        "french": "Französisch"
+    },
+    "hobby": "Schwimmen, Fahrrad und Sprachtandem",
+    "skills": "Fertigkeiten und Kenntnisse",
+    "experience": {
+        "title": "Berufliche Erfahrung",
+        "genai-scrap": "Automatische Identifikation von öffentlichen Ausschreibungen mit Selenium in Python",
+        "genai-llm": "Informationsextraktion und Erstellung von Zusammenfassungen mit Large Language Models",
+        "genai-flask": "Entwicklung der Full-Stack-App mit JavaScript für die Benutzeroberfläche und Flask für die API",
+        "ppt-title": "PowerPoint Übersetzer",
+        "ppt-app": "Entwicklung einer Full-Stack-Web-App zur automatischen Übersetzung von PowerPoint-Unterlagen auf Azure",
+        "aml-title": "KI-basierte Anti-Geldwäsche Optimierung",
+        "aml-kmeans": "Entwicklung eines K-means-Klassifikationsalgorithmus zur Kundensegmentierung",
+        "aml-clean": "Bereinigung und Transformation von Transaktionsdaten",
+        "aml-static": "Statistische Analyse und Visualisierung von Transaktionsdaten",
+        "aml-xgboost": "Erstellung neuer Geldwäsche-Indizien durch den XGBoost Algorithmus",
+        "codeorigin": "Entwicklung eines neuronalen Netz-Modells zur automatischen Quellcode-Identifikation",
+        "teacher": "Mathe- und Physiklehrer",
+        "teacher-pygame": "Entwicklung von Hausaufgaben- und Spiel-Apps mit Pygame",
+        "researcher": "Wissenschaftlicher Mitarbeiter",
+        "uni": "Universität des Saarlandes",
+        "droplet": "Verhalten kleiner schwimmender Tropfen zur Beschreibung von Bakterienbewegungen und -schwimmechanismen",
+        "droplet-image": "Bildbearbeitung und Objekt suchen mit OpenCV in Python",
+        "droplet-static": "Datenauswertung, Statistik und Regressionsanalyse"
+    }
+}

@@ -20,7 +20,7 @@
   margin: 0 auto 3em;
 }
 
-.project:hover .project-title {
+.project-tile:hover .project-title {
   background-color: #444;
 }
 

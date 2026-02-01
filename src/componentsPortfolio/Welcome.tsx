@@ -2,7 +2,7 @@ import "./Welcome.css";
 import { useTranslation } from "react-i18next";
 
 function Welcome() {
-    const { t } = useTranslation();
+    const { t } = useTranslation("portfolio");
     return (
         <section id="welcome-section" className="welcome-section">
             <div className="container-img">
@@ -13,8 +13,8 @@ function Welcome() {
                 />
                 <h2 id="ywm">You want me</h2>
             </div>
-            <h1>{t("hello")}</h1>
-            <h2 id="ds">{t("developer")}</h2>
+            <h1>{t("welcome.hello")}</h1>
+            <h2 id="ds">{t("welcome.developer")}</h2>
         </section>
     );
 }

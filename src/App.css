@@ -1,3 +1,44 @@
+:root {
+  /* border: 1px solid red; */
+  --main-white: #f0f0f0;
+  --height-nav: 40px;
+  --main-gray: #303841;
+
+  --bg1: #A6BA6D;
+  --bg2: #647891;
+  --height-nav: 4em;
+  --main-gray: #303841;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html {
+  font-family: 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  background-color: lightblue;
+
+  min-height: 100vh;
+  /* display: flex; */
+  justify-content: center;
+}
+
 .underNavbar {
   padding-top: 40px;
 }
@@ -10,7 +51,6 @@ h2 {
   font-size: 2.5em;
 }
 
-
 a {
   text-decoration: none;
   color: inherit;
@@ -22,6 +62,6 @@ a {
   }
 
   h2 {
-    font-size: 2em;
+    font-size: 1.8em;
   }
 }

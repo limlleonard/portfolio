@@ -7,7 +7,7 @@
   background-color: #222;
 }
 
-.container-img {
+.welcome-section .container-img {
   position: relative;
   display: inline-block;
   height: 65vh;
@@ -49,7 +49,7 @@
     min-height: auto;
   }
 
-  .container-img {
+  .welcome-section .container-img {
     justify-content: center;
     align-items: center;
     height: auto;

@@ -4,7 +4,7 @@
   color: black;
 }
 
-.page-wrapper {
+.iframe-wrapper {
   position: relative;
   width: 100%;
   max-width: 210mm;
@@ -12,7 +12,7 @@
   margin: auto;
 }
 
-.page {
+.iframe {
   position: absolute;
   top: 0;
   left: 0;

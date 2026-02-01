@@ -1,0 +1,16 @@
+.bildung h5 {
+  color: aqua;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.bildung h4:nth-child(2) {
+  color: white;
+  font-weight: 500;
+}
+
+.bildung h4 {
+  color: white;
+  font-weight: 200;
+  line-height: 1.4;
+}

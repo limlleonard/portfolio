@@ -1,0 +1,27 @@
+{
+    "navbar": {
+        "welcome": "Willkommen",
+        "projects": "Projekte",
+        "contact": "Kontakt"
+    },
+    "welcome": {
+        "hello": "Hallo, Ich bin Menglin Li",
+        "developer": "Ein Full-Stack Entwickler"
+    },
+    "projects": {
+        "h2Project": "Das sind meine Projekte",
+        "cc": "Sternhalma",
+        "rag": "RAG",
+        "imageTile": "Bild Kachel",
+        "blog": "Blog",
+        "kegel": "Kegelschnitt Konstruktion Anweisung",
+        "fourIn1Row": "Four in a row",
+        "spiral": "Spiral malen Spiel",
+        "fiveIn1Row": "Five in a row (Minimax Algorithmus)",
+        "regression": "Regressionsanalyse"
+    },
+    "contact": {
+        "together": "Lass uns zusammenarbeiten",
+        "call": "Ruf mich an"
+    }
+}

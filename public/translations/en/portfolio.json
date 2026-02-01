@@ -1,0 +1,27 @@
+{
+    "navbar": {
+        "welcome": "Welcome",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "welcome": {
+        "hello": "Hello, I am Menglin Li",
+        "developer": "A Full-Stack Developer"
+    },
+    "projects": {
+        "h2Project": "Here are my projects",
+        "cc": "Chinese Checkers",
+        "rag": "RAG",
+        "imageTile": "Image Tile",
+        "blog": "Blog",
+        "kegel": "Conic Section Construction Instruction",
+        "fourIn1Row": "Four in a Row",
+        "spiral": "Spiral Painting Game",
+        "fiveIn1Row": "Five in a Row (Minimax Algorithm)",
+        "regression": "Regression Analysis"
+    },
+    "contact": {
+        "together": "Let us work together",
+        "call": "Call me"
+    }
+}

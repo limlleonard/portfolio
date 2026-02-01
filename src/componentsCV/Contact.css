@@ -1,0 +1,13 @@
+.contact ul li {
+  display: flex;
+}
+
+.ctn-ul ul li .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  margin-right: 5px;
+  font-size: 1em;
+  color: aqua;
+}

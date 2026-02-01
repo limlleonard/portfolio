@@ -1,0 +1,75 @@
+.page {
+  width: 210mm;
+  height: 297mm;
+  margin: 0 auto;
+  page-break-after: always;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-size: 12pt;
+  text-align: left;
+  /* border: solid 3px red; */
+
+}
+
+.page .left {
+  position: relative;
+  background: indigo;
+  padding: 35px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left1 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ctn-ul+.ctn-ul {
+  margin-top: auto;
+  /* Margin in between but not at the top or end */
+}
+
+
+.ctn-ul .title {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+/* .ctn-ul ul {
+	position: relative;
+} */
+
+.ctn-ul ul li {
+  position: relative;
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.ctn-ul ul li,
+.ctn-ul span,
+.ctn-ul a {
+  color: white;
+  font-size: 11pt;
+  font-weight: 300;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.page .right {
+  position: relative;
+  background-color: white;
+  color: black;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.right .title2 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 14pt;
+  color: indigo;
+}
