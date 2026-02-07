@@ -14,7 +14,19 @@
 
 <body>
   <div id="root"></div>
-  <script type="module" src="/src/main.tsx"></script>
+  <script>
+    (function () {
+      var l = window.location;
+      var repoBase = "/portfolio"; // <-- muss zu deiner Vite base passen, ohne trailing slash
+      if (l.pathname.startsWith(repoBase + "/")) {
+        var path = l.pathname.substring(repoBase.length); // z.B. "/cv-page"
+        l.replace(repoBase + "/?"+ path + l.search + l.hash);
+      } else {
+        // Fallback
+        l.replace(repoBase + "/");
+      }
+    })();
+  </script>
 </body>
 
 </html>
