@@ -4,7 +4,8 @@ import { useTranslation } from "react-i18next";
 function CV() {
     const { i18n } = useTranslation();
     const lang = i18n.language;
-    const iframeSrc = window.location.origin + "/cv-page";
+    // const iframeSrc = window.location.origin + "/cv-page";
+    const iframeSrc = `${import.meta.env.BASE_URL}/cv-page/?lang=${lang}`;
     // lang === "de"
     //     ? window.location.origin + "/cv-page"
     //     : lang === "en"

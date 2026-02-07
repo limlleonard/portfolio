@@ -2,7 +2,7 @@ import "./Contact.css";
 import { useTranslation } from "react-i18next";
 import { CVContactData } from "../assets/CVContactData";
 function Contact() {
-    const { t, i18n } = useTranslation("cv");
+    const { t } = useTranslation("cv"); // i18n
     return (
         <div className="ctn-ul contact">
             <h3 className="title">{t("contact")}</h3>

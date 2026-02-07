@@ -5,7 +5,7 @@ import Portfolio from "./componentsPortfolio/Portfolio";
 import CV from "./componentsCV/CV";
 function App() {
     return (
-        <Router>
+        <Router basename={import.meta.env.BASE_URL}>
             {/* <nav className="p-4">
                 <Link to="/" className="mr-4">
                     Portfolio

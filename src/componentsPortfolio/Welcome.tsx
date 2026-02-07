@@ -1,5 +1,6 @@
 import "./Welcome.css";
 import { useTranslation } from "react-i18next";
+import youWantMe from "@/assets/img/you_want_me.png"
 
 function Welcome() {
     const { t } = useTranslation("portfolio");
@@ -8,7 +9,7 @@ function Welcome() {
             <div className="container-img">
                 <img
                     className="welcome-image"
-                    src="./img/you_want_me.png?raw=true"
+                    src={youWantMe}
                     alt="image welcome"
                 />
                 <h2 id="ywm">You want me</h2>

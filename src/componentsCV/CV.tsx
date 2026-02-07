@@ -7,6 +7,12 @@ import Language from "./Language";
 import Skills from "./Skills";
 import Experience from "./Experience";
 function CV() {
+    const params = new URLSearchParams(window.location.search);
+    const lang = params.get("lang");
+    const { i18n } = useTranslation();
+    if (lang) {
+        i18n.changeLanguage(lang);
+    }
     const { t } = useTranslation("cv");
     return (
         <>

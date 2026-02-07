@@ -10,7 +10,7 @@ i18n.use(HttpBackend)
         ns: ["portfolio", "cv"], // namespace
         defaultNS: "portfolio",
         backend: {
-            loadPath: "./translations/{{lng}}/{{ns}}.json",
+            loadPath: `${import.meta.env.BASE_URL}/translations/{{lng}}/{{ns}}.json`,
         },
         // interpolation: { escapeValue: false },
     });
